@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruits Burst</title>
+
+    <!-- Tailwind and Daisy UI Cdn link here  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome cdn link here  -->
+    <script
+      src="https://kit.fontawesome.com/fb1163e210.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- customizing tailwind css here -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              lato: ["Lato", "sans-serif"],
+            },
+            colors: {
+              primary: "#F85559",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Lato google font link here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-lato">
+    <header class="container mx-auto">
+      <!-- nav bar start header -->
+      <nav
+        class="lg:bg-primary flex justify-between items-center pt-10 pb-6 lg:py-5 px-5 lg:px-12 lg:my-12 rounded-full"
+      >
+        <!-- menus items section -->
+        <div class="hidden lg:block">
+          <ul class="flex space-x-8 text-lg">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+          </ul>
+        </div>
+        <!-- logo section  -->
+        <div class="flex items-center space-x-4">
+          <img class="w-7 lg:w-14" src="./images/logo.png" alt="logo" />
+          <a class="text-xl lg:text-5xl">Fruit Burst</a>
+        </div>
+        <!-- search section  -->
+        <div class="hidden lg:block rounded-full">
+          <input class="rounded-full py-3 pl-6 pr-24" type="text" placeholder="Search here" />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass -ml-12"></i>
+          </button>
+        </div>
+        <div class="block lg:hidden"><i class="fa-solid fa-bars"></i></div>
+      </div>
+      </nav>
+    </header>
+  </body>
+</html>
