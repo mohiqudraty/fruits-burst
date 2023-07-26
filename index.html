@@ -43,11 +43,11 @@
       rel="stylesheet"
     />
   </head>
-  <body class="font-lato">
+  <body class="font-lato px-5">
     <header class="container mx-auto">
       <!-- nav bar start header -->
       <nav
-        class="lg:bg-primary flex justify-between items-center pt-10 pb-6 lg:py-5 px-5 lg:px-12 lg:my-12 rounded-full"
+        class="lg:bg-primary flex justify-between items-center pt-10 pb-6 lg:py-5 px-5 lg:px-12 lg:my-10 lg:mb-10 rounded-full"
       >
         <!-- menus items section -->
         <div class="hidden lg:block">
@@ -65,7 +65,7 @@
         </div>
         <!-- search section  -->
         <div class="hidden lg:block rounded-full">
-          <input class="rounded-full py-3 pl-6 pr-24" type="text" placeholder="Search here" />
+          <input class="rounded-full py-3 pl-6 pr-24 outline-none" type="text" placeholder="Search here" />
           <button type="submit">
             <i class="fa-solid fa-magnifying-glass -ml-12"></i>
           </button>
@@ -73,6 +73,104 @@
         <div class="block lg:hidden"><i class="fa-solid fa-bars"></i></div>
       </div>
       </nav>
+      <!-- hero section start here  -->
+      <section class="relative">
+        <div class="carousel w-full">
+          <!-- slider 1 -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="w-full h-full absolute opacity-40 bg-black"><!--overly section--></div> 
+            <!-- slider img   -->
+            <img src="./images/banner1.png" class="w-full block" />
+            <!-- hero title, text and button  -->
+            <div class="w-full pb-3 text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
+              <h1 class="text-2xl font-bold lg:text-7xl pt-7">Exotic tastes at your
+                <br> doorstep</h1>
+              <p class="text-sm lg:text-xl lg:my-6">We supply high quality organic products</p>
+              <button class="btn bg-primary my-3 text-white text-base lg:text-xl lg:font-bold border-none hover:text-black">Shop Now</button>
+            </div>
+            <!-- slider arrow  -->
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
+              <a href="#slide4" class="btn btn-circle  bg-[#121212] text-white border-none hover:text-black">❮<a/> 
+              <a href="#slide2" class="   btn btn-circle  bg-[#121212] text-white border-none hover:text-black">❯</a>
+            </div>
+          </div> 
+          <!-- slider 2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="w-full h-full absolute opacity-40 bg-black"><!--overly section--></div> 
+            <img src="./images/banner2.png" class="w-full" />
+             <!-- hero title, text and button  -->
+             <div class="w-full pb-3 text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
+              <h1 class="text-2xl font-bold lg:text-7xl pt-7">Exotic tastes at your
+                <br> doorstep</h1>
+              <p class="text-sm lg:text-xl lg:my-6">We supply high quality organic products</p>
+              <button class="btn bg-primary my-3 text-white text-base lg:text-xl lg:font-bold border-none hover:text-black">Shop Now</button>
+            </div>
+            <!-- slider arrow  -->
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
+              <a href="#slide1" class="   btn btn-circle  bg-[#121212] text-white border-none hover:text-black">❮</a> 
+              <a href="#slide3" class="   btn btn-circle  bg-[#121212] text-white border-none hover:text-black">❯</a>
+            </div>
+          </div> 
+          <!-- slider 3 -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="w-full h-full absolute opacity-40 bg-black"><!--overly section--></div> 
+            <img src="./images/banner3.png" class="w-full" />
+             <!-- hero title, text and button  -->
+             <div class="w-full pb-3 text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
+              <h1 class="text-2xl font-bold lg:text-7xl pt-7">Exotic tastes at your
+                <br> doorstep</h1>
+              <p class="text-sm lg:text-xl lg:my-6">We supply high quality organic products</p>
+              <button class="btn bg-primary my-3 text-white text-base lg:text-xl lg:font-bold border-none hover:text-black">Shop Now</button>
+            </div>
+            <!-- slider arrow  -->
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
+              <a href="#slide2" class="   btn btn-circle  bg-[#121212] text-white border-none hover:text-black">❮</a> 
+              <a href="#slide4" class="   btn btn-circle  bg-[#121212] text-white border-none hover:text-black">❯</a>
+            </div>
+          </div> 
+          <!-- slider 4 -->
+          <div id="slide4" class="carousel-item relative w-full">
+            <div class="w-full h-full absolute opacity-40 bg-black"><!--overly section--></div> 
+            <img src="./images/banner4.png" class="w-full" />
+             <!-- hero title, text and button  -->
+             <div class="w-full pb-3 text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
+              <h1 class="text-2xl font-bold lg:text-7xl pt-7">Exotic tastes at your
+                <br> doorstep</h1>
+              <p class="text-sm lg:text-xl lg:my-6">We supply high quality organic products</p>
+              <button class="btn bg-primary my-3 text-white text-base lg:text-xl lg:font-bold border-none hover:text-black">Shop Now</button>
+            </div>
+            <!-- slider arrow  -->
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-1/2">
+              <a href="#slide3" class="   btn btn-circle  bg-[#121212] text-white border-none hover:text-black">❮</a> 
+              <a href="#slide1" class="   btn btn-circle  bg-[#121212] text-white border-none hover:text-black">❯</a>
+            </div>
+          </div>
+        </div>
+        <!-- hero overly section  -->
+      <div class="hidden lg:w-full rounded-lg text-center absolute top-full left-1/2 -translate-x-1/2 -translate-y-24  bg-white max-w-5xl shadow-xl mx-auto lg:flex justify-evenly">
+        <div class="py-5 w-36 text-xl space-y-3">
+          <img class=" block mx-auto w-36" src="./images/fruit1.png" alt="">
+          <p>Grapes</p>
+        </div>
+        <div class="py-5 w-36 text-xl space-y-4">
+          <img class=" block mx-auto" src="./images/fruit2.png" alt="">
+          <p>Orange</p>
+        </div>
+        <div class="py-5 w-36 text-xl space-y-4">
+          <img class=" block mx-auto" src="./images/fruit3.png" alt="">
+          <p>Mango</p>
+        </div>
+        <div class="py-5 w-36 text-xl space-y-4">
+          <img src="./images/fruit4.png" alt="">
+          <p>Strawberry</p>
+        </div>
+        <div class="py-5 w-36 text-xl space-y-4">
+          <img class=" block mx-auto" src="./images/fruit5.png" alt="">
+          <p>Pomegranate</p>
+        </div>
+      </div>
+      </section>
+      
     </header>
   </body>
 </html>
